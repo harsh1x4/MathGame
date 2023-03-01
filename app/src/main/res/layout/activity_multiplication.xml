@@ -22,6 +22,7 @@
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Score :  0"
+            android:fontFamily="@font/poppins_reg"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
@@ -32,6 +33,7 @@
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Life :  5"
+            android:fontFamily="@font/poppins_reg"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
@@ -72,6 +74,7 @@
                     android:background="#222222"
                     android:gravity="center_horizontal"
                     android:padding="10dp"
+                    android:fontFamily="@font/poppins_reg"
                     android:textColor="#FFFFFF"
                     android:textSize="20sp" />
 
@@ -80,6 +83,7 @@
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/poppins_reg"
                     android:layout_margin="10dp"
                     android:background="#222222"
                     android:ems="10"
@@ -105,6 +109,8 @@
                     android:layout_marginHorizontal="5dp"
                     android:layout_weight="1"
                     android:text="Check Answer"
+                    android:textColor="#ffffff"
+                    android:fontFamily="@font/poppins_bold"
                     android:textAllCaps="false" />
 
                 <Button
@@ -114,6 +120,8 @@
                     android:layout_marginHorizontal="5dp"
                     android:layout_weight="1"
                     android:text="Next Question"
+                    android:textColor="#ffffff"
+                    android:fontFamily="@font/poppins_bold"
                     android:textAllCaps="false" />
             </LinearLayout>
         </LinearLayout>
